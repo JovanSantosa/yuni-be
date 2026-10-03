@@ -16,7 +16,7 @@ use App\Http\Controllers\Api\PublicApi\SettingController;
 use App\Http\Controllers\Api\PublicApi\TestimonialController;
 use Illuminate\Support\Facades\Route;
 
-// ── Public Routes ──
+// ── Public Routes (CI/CD Tested) ──
 Route::middleware('throttle:60,1')->group(function () {
     Route::get('/settings', [SettingController::class, 'index']);
     Route::get('/banners', [BannerController::class, 'index']);
