@@ -24,6 +24,10 @@ class SetLocale
                 $locale = 'zh-TW';
             } elseif (in_array(strtolower($primaryLocale), ['en', 'en-us', 'en_us', 'en-gb'])) {
                 $locale = 'en';
+            } elseif (in_array(strtolower($primaryLocale), ['vi', 'vi-vn'])) {
+                $locale = 'vi';
+            } elseif (in_array(strtolower($primaryLocale), ['th', 'th-th'])) {
+                $locale = 'th';
             } else {
                 $locale = 'id';
             }
@@ -31,7 +35,7 @@ class SetLocale
             $locale = $request->query('lang', 'id');
         }
 
-        if (!in_array($locale, ['id', 'zh-TW', 'en'])) {
+        if (!in_array($locale, ['id', 'zh-TW', 'en', 'vi', 'th'])) {
             $locale = 'id';
         }
 
