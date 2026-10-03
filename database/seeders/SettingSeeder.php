@@ -14,18 +14,24 @@ class SettingSeeder extends Seeder
                 'id' => 'Konter HP Terpercaya di Taichung',
                 'zh-TW' => '台中最值得信賴的手機專賣店',
                 'en' => 'Trusted Phone Store in Taichung',
+                'vi' => 'Cửa hàng Điện thoại Đáng tin cậy tại Taichung',
+                'th' => 'ร้านโทรศัพท์ที่เชื่อถือได้ใน Taichung',
             ], JSON_UNESCAPED_UNICODE),
 
             'hero_subtitle' => json_encode([
                 'id' => 'Jual beli HP, laptop, MacBook, iPad, tablet, dan aksesoris baru & bekas. Harga termurah dengan kualitas terbaik. Kami tidak pernah berbohong mengenai kondisi barang -- semua disampaikan apa adanya.',
                 'zh-TW' => '全新與優質二手 iPhone、Samsung、MacBook、iPad 及配件買賣。堅持誠信透明、絕不隱瞞機況，以最實惠的價格提供最頂級的品質。',
                 'en' => 'Buy and sell new & used smartphones, MacBooks, iPads, and accessories. Best prices with top quality. 100% honest and transparent about device condition.',
+                'vi' => 'Mua bán điện thoại thông minh, MacBook, iPad và phụ kiện mới & cũ. Giá tốt nhất với chất lượng hàng đầu. Trung thực và minh bạch 100% về tình trạng thiết bị.',
+                'th' => 'ซื้อและขายสมาร์ทโฟน MacBook iPad และอุปกรณ์เสริมทั้งใหม่และมือสอง ราคาดีที่สุดพร้อมคุณภาพสูงสุด ซื่อสัตย์และโปร่งใส 100% เกี่ยวกับสภาพอุปกรณ์',
             ], JSON_UNESCAPED_UNICODE),
 
             'about_text' => json_encode([
                 'id' => "Yuni Counter telah melayani kebutuhan handphone dan gadget di Taichung, Taiwan sejak tahun 2004. Berlokasi di First Square (Asean Square Pyramid) Lantai 3, kami telah menjadi pilihan utama bagi komunitas Indonesia dan Asia Tenggara di Taiwan.\n\nYang membedakan kami adalah kejujuran. Setiap produk yang kami jual, baik baru maupun bekas, selalu kami informasikan kondisinya secara transparan. Tidak ada yang ditutup-tutupi. Kepercayaan pelanggan adalah aset terbesar kami.",
                 'zh-TW' => "Yuni Counter 自 2004 年起在台灣台中第一廣場（東協廣場金字塔）三樓服務廣大顧客。多年來已成為台中當地居民與東南亞國際朋友的首選手機專賣店。\n\n我們與眾不同的核心價值是「誠信透明」。每台售出的全新或二手手機，我們都會毫無隱瞞地說明真實機況。顧客的長久信任是我們最珍貴的資產。",
                 'en' => "Yuni Counter has been serving smartphones and tech gadgets in Taichung, Taiwan since 2004. Located at First Square (Asean Square Pyramid) 3rd Floor, we have become the trusted choice for the local community and international residents.\n\nWhat sets us apart is 100% honesty. We transparently disclose the true condition of every device. Customer trust is our greatest asset.",
+                'vi' => "Yuni Counter đã phục vụ các sản phẩm công nghệ và điện thoại thông minh tại Đài Trung, Đài Loan từ năm 2004. Nằm tại Tầng 3 First Square (Asean Square Pyramid), chúng tôi đã trở thành sự lựa chọn đáng tin cậy của cộng đồng địa phương và cư dân quốc tế.\n\nĐiều làm chúng tôi khác biệt là sự trung thực 100%. Chúng tôi luôn công khai minh bạch tình trạng thực tế của mọi thiết bị. Niềm tin của khách hàng là tài sản lớn nhất của chúng tôi.",
+                'th' => "Yuni Counter ให้บริการสมาร์ทโฟนและอุปกรณ์เทคโนโลยีในไทจง ประเทศไต้หวันตั้งแต่ปี 2004 ตั้งอยู่ที่ First Square (Asean Square Pyramid) ชั้น 3 เรากลายเป็นทางเลือกที่ได้รับความไว้วางใจสำหรับชุมชนท้องถิ่นและชาวต่างชาติ\n\nสิ่งที่ทำให้เราแตกต่างคือความซื่อสัตย์ 100% เราเปิดเผยสภาพที่แท้จริงของทุกอุปกรณ์อย่างโปร่งใส ความไว้วางใจของลูกค้าคือสินทรัพย์ที่ยิ่งใหญ่ที่สุดของเรา",
             ], JSON_UNESCAPED_UNICODE),
 
             'hero_image' => 'https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=1000&q=80',
