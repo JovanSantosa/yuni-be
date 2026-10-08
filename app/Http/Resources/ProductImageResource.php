@@ -10,9 +10,16 @@ class ProductImageResource extends JsonResource
 {
     public function toArray(Request $request): array
     {
+        $path = $this->image_path;
+        if (str_starts_with($path, 'http://') || str_starts_with($path, 'https://')) {
+            $url = $path;
+        } else {
+            $url = Storage::disk('public')->url($path);
+        }
+
         return [
             'id' => $this->id,
-            'url' => Storage::disk('public')->url($this->image_path),
+            'url' => $url,
             'order' => $this->order,
         ];
     }
