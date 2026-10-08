@@ -103,7 +103,7 @@ class ProductSeeder extends Seeder
                 'stock' => 5,
                 'is_featured' => false,
                 'branch' => 'room281',
-                'image' => 'https://images.unsplash.com/photo-1588872657577-bc96e515d833?auto=format&fit=crop&w=700&q=80',
+                'image' => 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=700&q=80',
             ],
             [
                 'category_id' => $tablet?->id,
@@ -147,7 +147,7 @@ class ProductSeeder extends Seeder
                 'stock' => 8,
                 'is_featured' => false,
                 'branch' => 'both',
-                'image' => 'https://images.unsplash.com/photo-1609592424364-706798642ca8?auto=format&fit=crop&w=700&q=80',
+                'image' => 'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=700&q=80',
             ],
         ];
 

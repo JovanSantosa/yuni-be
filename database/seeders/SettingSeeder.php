@@ -35,7 +35,7 @@ class SettingSeeder extends Seeder
             ], JSON_UNESCAPED_UNICODE),
 
             'hero_image' => 'https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=1000&q=80',
-            'about_image' => 'https://images.unsplash.com/photo-1556742049-0a67c5574f73?auto=format&fit=crop&w=1200&q=80',
+            'about_image' => 'https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&w=1200&q=80',
             'cta_image' => 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1600&q=80',
 
             'address_room330' => 'First Square, Lantai 3, Room 330, Taichung, Taiwan',
