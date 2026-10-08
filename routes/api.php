@@ -44,6 +44,7 @@ Route::middleware('auth:sanctum')->group(function () {
 
     // ── Admin Routes ──
     Route::prefix('admin')->group(function () {
+        Route::put('/profile/password', [AuthController::class, 'updatePassword']);
         Route::get('/dashboard', [DashboardController::class, 'index']);
 
         // Categories
