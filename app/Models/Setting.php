@@ -31,6 +31,7 @@ class Setting extends Model
         'about_text',
         'meta_title',
         'meta_description',
+        'whatsapp_hero_message',
     ];
 
     /**

@@ -43,6 +43,13 @@ class SettingSeeder extends Seeder
             'phone_number' => '0987-872-888',
             'whatsapp_number' => '886987872888',
             'whatsapp_default_message' => 'Halo Yuni Counter, saya tertarik dengan {product_name}',
+            'whatsapp_hero_message' => json_encode([
+                'id' => 'Halo Yuni Counter, saya tertarik dengan produk Anda dan ingin bertanya.',
+                'zh-TW' => '您好 Yuni Counter，我對您的商品有興趣，想諮詢詳情。',
+                'en' => 'Hello Yuni Counter, I am interested in your products and would like to ask a question.',
+                'vi' => 'Xin chào Yuni Counter, tôi quan tâm đến các sản phẩm của bạn và muốn được tư vấn.',
+                'th' => 'สวัสดี Yuni Counter ฉันสนใจสินค้าของคุณและต้องการสอบถามข้อมูล',
+            ], JSON_UNESCAPED_UNICODE),
             'tiktok_account_1' => 'https://www.tiktok.com/@yunistore.lt3room330',
             'tiktok_account_2' => 'https://www.tiktok.com/@yuni.counter.3f',
             'operating_hours' => "Buka Setiap Hari\n10:00 - 21:00",

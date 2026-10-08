@@ -25,6 +25,7 @@ class UpdateSettingRequest extends FormRequest
             'phone_number' => ['nullable', 'string', 'max:50'],
             'whatsapp_number' => ['required', 'string'],
             'whatsapp_default_message' => ['nullable', 'string', 'max:255'],
+            'whatsapp_hero_message' => ['nullable'],
             'tiktok_account_1' => ['nullable', 'string', 'max:500'],
             'tiktok_account_2' => ['nullable', 'string', 'max:500'],
             'operating_hours' => ['nullable', 'string', 'max:500'],
